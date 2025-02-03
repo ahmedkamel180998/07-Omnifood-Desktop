@@ -211,3 +211,50 @@ body {
   color: #cf711f;
   font-weight: 700;
 }
+/**************************************/
+/* HOW IT WORKS SECTION */
+/**************************************/
+.section-how {
+  padding: 9.6rem 0;
+  background-color: aquamarine;
+}
+
+.section-how:last-child {
+  background-color: brown;
+}
+
+.container {
+  max-width: 120rem;
+  padding: 3.2rem;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  gap: 9.6rem;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid div {
+  padding: 10rem;
+  font-size: 5rem;
+}
+.grid div:nth-child(1) {
+  background-color: #e599f7;
+}
+.grid div:nth-child(2) {
+  background-color: #66d9e8;
+}
+.grid div:nth-child(3) {
+  background-color: #63e6be;
+}
+.grid div:nth-child(4) {
+  background-color: #ffe066;
+}
