@@ -199,3 +199,7 @@ body {
 .main-nav-link.nav-cta:active {
   background-color: #cf711f;
 }
+
+strong {
+  font-weight: 500;
+}
