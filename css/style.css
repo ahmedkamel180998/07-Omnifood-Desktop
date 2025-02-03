@@ -53,13 +53,46 @@ body {
 /**************************************/
 /* GENERAL COMPONENTS */
 /**************************************/
-.primary-heading {
-  font-size: 5.2rem;
-  font-weight: 700;
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  gap: 9.6rem;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.primary-heading,
+.secondary-heading {
   line-height: 1.05;
   letter-spacing: -0.05rem;
   color: #333;
+}
+
+.primary-heading {
+  font-size: 5.2rem;
+  font-weight: 700;
   margin-bottom: 3.2rem;
+}
+
+.secondary-heading {
+  font-size: 4.4rem;
+  margin-bottom: 6.4rem;
+}
+
+.sub-heading {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #cf711f;
+  text-transform: uppercase;
+  margin-bottom: 1.6rem;
+  letter-spacing: 0.75px;
 }
 
 .btn:link,
@@ -216,45 +249,8 @@ body {
 /**************************************/
 .section-how {
   padding: 9.6rem 0;
-  background-color: aquamarine;
 }
 
-.section-how:last-child {
-  background-color: brown;
-}
-
-.container {
-  max-width: 120rem;
-  padding: 3.2rem;
-  margin: 0 auto;
-}
-
-.grid {
-  display: grid;
-  gap: 9.6rem;
-}
-
-.grid--2-cols {
-  grid-template-columns: repeat(2, 1fr);
-}
-
-.grid--3-cols {
-  grid-template-columns: repeat(3, 1fr);
-}
-
-.grid div {
-  padding: 10rem;
-  font-size: 5rem;
-}
-.grid div:nth-child(1) {
-  background-color: #e599f7;
-}
-.grid div:nth-child(2) {
-  background-color: #66d9e8;
-}
-.grid div:nth-child(3) {
-  background-color: #63e6be;
-}
-.grid div:nth-child(4) {
-  background-color: #ffe066;
+.step-img {
+  width: 50%;
 }
