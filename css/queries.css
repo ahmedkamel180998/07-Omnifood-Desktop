@@ -48,3 +48,66 @@
     padding: 9.6rem 2.4rem;
   }
 }
+
+/* Below 944px [Tablets] */
+@media (max-width: 59em) {
+  html {
+    font-size: 50%;
+  }
+
+  .hero {
+    grid-template-columns: 1fr;
+    padding: 0 8rem;
+    gap: 6.4rem;
+  }
+
+  .hero-text-box,
+  .hero-img-box {
+    text-align: center;
+  }
+
+  .hero-img {
+    width: 60%;
+  }
+
+  .delivered-meals {
+    justify-content: center;
+    margin-top: 3.2rem;
+  }
+
+  .step-number {
+    font-size: 7.4rem;
+  }
+
+  .meal-content {
+    padding: 3.2rem 2.4rem 3.2rem 2.4rem;
+  }
+
+  .section-testimonials {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  .pricing-plan-starter {
+    padding: 2.8rem;
+  }
+
+  .pricing-plan-complete {
+    padding: 3rem;
+  }
+
+  .pricing-plan-complete::after {
+    right: -10%;
+  }
+
+  .cta-form {
+    grid-template-columns: 1fr;
+  }
+
+  .footer {
+    padding: 12.8rem 1.2rem 6.4rem 1.2rem;
+  }
+}
