@@ -42,6 +42,7 @@
 
 html {
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 
 body {
@@ -49,6 +50,7 @@ body {
   line-height: 1;
   font-weight: 400;
   color: #555;
+  overflow-x: hidden;
 }
 
 *:focus {
@@ -207,60 +209,4 @@ body {
 
 .center-text {
   text-align: center;
-}
-/**************************************/
-/* HEADER SECTION */
-/**************************************/
-.header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background-color: #fdf2e9;
-  height: 9.6rem;
-  padding: 0 4.8rem;
-}
-
-.logo {
-  height: 2.2rem;
-}
-/**************************************/
-/* MAIN NAVIGATION */
-/**************************************/
-.main-nav-list {
-  list-style: none;
-  display: flex;
-  align-items: center;
-  gap: 4.8rem;
-}
-
-.main-nav-link:link,
-.main-nav-link:visited {
-  display: inline-block;
-  text-decoration: none;
-  color: #333;
-  font-size: 1.8rem;
-  font-weight: 500;
-  transition: all 0.3s;
-}
-
-.main-nav-link:hover,
-.main-nav-link:active {
-  color: #cf711f;
-}
-
-.main-nav-link.nav-cta:link,
-.main-nav-link.nav-cta:visited {
-  background-color: #e67e22;
-  color: #fff;
-  padding: 1.2rem 2.4rem;
-  border-radius: 0.9rem;
-}
-
-.main-nav-link.nav-cta:hover,
-.main-nav-link.nav-cta:active {
-  background-color: #cf711f;
-}
-
-strong {
-  font-weight: 500;
 }
