@@ -7,3 +7,25 @@ const header = document.querySelector(".header");
 navToggle.addEventListener("click", function () {
   header.classList.toggle("nav-open");
 });
+
+const navLinks = document.querySelectorAll("a:link");
+navLinks.forEach(function (link) {
+  link.addEventListener("click", function (e) {
+    e.preventDefault();
+    const href = link.getAttribute("href");
+
+    if (href === "#") {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth",
+      });
+    } else {
+      const scrolledSection = document.querySelector(href);
+      scrolledSection.scrollIntoView({ behavior: "smooth" });
+    }
+
+    if (header.classList.contains("nav-open")) {
+      header.classList.remove("nav-open");
+    }
+  });
+});
