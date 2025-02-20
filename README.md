@@ -4,14 +4,14 @@
 
 ### Header Section
 
--The header section includes the navigation bar with links to different parts of the website such as Home, About, Features, and Contact.
--It also contains the logo of Omnifood.
+- The header section includes the navigation bar with links to different parts of the website such as Home, About, Features, and Contact.
+- It also contains the logo of Omnifood.
 
 ### Hero Section
 
--The hero section is the main banner of the website. It features a catchy headline.
--A brief description of Omnifood's mission.
--A call-to-action button that encourages visitors to get started.
+- The hero section is the main banner of the website. It features a catchy headline.
+- A brief description of Omnifood's mission.
+- A call-to-action button that encourages visitors to get started.
 
 ### Featured In Section
 
@@ -34,19 +34,23 @@ The meals section provides a variety of meal options available through Omnifood.
 
 ### Testimonials Section
 
-The testimonials section includes quotes and reviews from satisfied customers. It helps to provide social proof and build trust with new visitors.
+- The testimonials section includes quotes and reviews from satisfied customers.
+- It helps to provide social proof and build trust with new visitors.
 
 ### Pricing Section
 
-This section provides information about the different pricing plans available for Omnifood's services. It includes details about what is included in each plan and the cost.
+- This section provides information about the different pricing plans available for Omnifood's services.
+- It includes details about what is included in each plan and the cost.
 
 ### Features Section
 
-The features section highlights the key benefits of using Omnifood. It includes points such as fresh and organic ingredients, customizable meal plans, convenient delivery options, and nutritional information provided for all meals.
+- The features section highlights the key benefits of using Omnifood.
+- It includes points such as fresh and organic ingredients, customizable meal plans, convenient delivery options, and nutritional information provided for all meals.
 
 ### Sign up Section
 
-The sign up section provides visitors with a way to get in touch with Omnifood. It includes a contact form, email address, and social media links.
+- The sign up section provides visitors with a way to get in touch with Omnifood.
+- It includes a contact form, email address, and social media links.
 
 ### Footer Section
 
